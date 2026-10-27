@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Duna Masferrer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -17,12 +31,95 @@
         </button>
         <nav class="nav">
             <ul class="nav--list">
-                <li class="nav--item"><a href="" class="nav--link">Home</a></li>
-                <li class="nav--item"><a href="" class="nav--link">My Services</a></li>
-                <li class="nav--item"><a href="" class="nav--link">About me</a></li>
-                <li class="nav--item"><a href="" class="nav--link">My work</a></li>
+                <li class="nav--item"><a href="#home" class="nav--link">Home</a></li>
+                <li class="nav--item"><a href="#services" class="nav--link">My Services</a></li>
+                <li class="nav--item"><a href="#about" class="nav--link">About me</a></li>
+                <li class="nav--item"><a href="#work" class="nav--link">My work</a></li>
             </ul>
         </nav>
     </header>
+
+    <section class="intro" id="home">
+        <h1 class="section--title section--title--intro">Hola, soy <strong>Duna Masferrer</strong></h1>
+        <p class="section--subtitle section--subtitle--intro">Atleta 1500 metros lisos</p>
+        <img src="https://mail.google.com/mail/u/0?ui=2&ik=dc60e1c357&attid=0.1&permmsgid=msg-a:r-7418465296529479085&th=1a1557ce9c939e45&view=fimg&fur=ip&permmsgid=msg-a:r-7418465296529479085&sz=s0-l75-ft&attbid=ANGjdJ9-TpWsp0l4nNpbSsJUUiCn6I_tiB_5EtV9w7m4qIkXbs58O2vpngtq5w2Ri4k34uL9FyXroZSEqARNpMl0OW0QrXR0hNOCk6CX0LgSpDopo1hyDGT8mkMu7Ek&disp=emb&realattid=6153BD4C-F7E4-4DF0-B647-0BAC7AA3CA11&zw"
+            alt="" width="20%">
+    </section>
+
+    <section class="my services" id="services">
+        <h2 class="section--title section--title--services"> Que hago </h2>
+        <div class="services">
+            <div class="service">
+                <h3>Exatleta de 1500</h3>
+                <p>Exatleta especializado en pruebas de medio fondo, con experiencia en los 1500 metros. Una trayectoria
+                    marcada por la disciplina, la constancia y la pasión por el atletismo, superando retos y alcanzando
+                    nuevas metas dentro y fuera de la pista.</p>
+            </div>
+            <div class="service">
+                <h3>Entrenadora de hipica</h3>
+                <p>Apasionada por el mundo ecuestre y el bienestar de los caballos. Comprometida con enseñar y mejorar
+                    las habilidades de cada jinete, fomentando la confianza, la disciplina y el respeto por los animales
+                    para crear una conexión única entre caballo y jinete.</p>
+            </div>
+            <div class="service">
+                <h3>Cuidadora de perros</h3>
+                <p>Apasionada por los animales y comprometida con su bienestar. Ofrezco un cuidado responsable, cariñoso
+                    y personalizado para que cada perro se sienta seguro, feliz y acompañado, brindándole toda la
+                    atención y el cariño que merece.</p>
+            </div>
+        </div>
+
+        <a href="#work" class="btn">My work</a>
+    </section>
+
+    <section class="about-me" id="about">
+        <h2 class="section--title section--title--about">Quien soy?</h2>
+        <p class="section--subtitle section--subtitle--about">Un poco más sobre mí</p>
+        <div class="about-me--body">
+            <p>Soy una persona activa, responsable y constante. Me gusta estar en contacto con los animales, pasar tiempo al aire libre y aprender cosas nuevas. Me considero una persona trabajadora, paciente y comprometida con lo que hago. También disfruto de los pequeños momentos del día a día y de todo lo que me permite seguir creciendo y aprendiendo.</p>
+            <p>El deporte ha formado parte de mi vida durante muchos años, ya que he sido atleta de 1500 metros lisos. Esta experiencia me ha enseñado a ser constante, a esforzarme y a no rendirme fácilmente. Actualmente, trabajo como entrenadora de hípica y cuidadora de perros, dos actividades que forman parte de mi día a día y que me permiten seguir aprendiendo y ganando experiencia.</p>
+        </div>
+        <img src="" alt="" width="20%">
+    </section>
+    <section class="my-work" id="work">
+        <h2 class="section--title section--title--work">Mi Trabajo</h2>
+        <p class="section--subtitle section--subtitle--about">Trabajos</p>
+        <div class="portfoli">
+            <a href="https://www.faib.es/" class="portfoli--item"><img src="./img/atlepodio.png" alt=""
+                    class="portfoli--img"></a>
+            <a href="https://festesmenorca.com/" class="portfoli--item"><img src="./img/cavallbot.png" alt=""
+                    class="portfoli--img"></a>
+            <a href="" class="portfoli--item"><img src="./img/perroscampo.png" alt="" class="portfoli--img"></a>
+            <a href="" class="portfoli--item"><img src="./img/perrosmar.png" alt="" class="portfoli--img"></a>
+            <a href="https://www.faib.es/" class="portfoli--item"><img src="./img/atlejo.png" alt=""
+                    class="portfoli--img"></a>
+            <a href="" class="portfoli--item"><img src="./img/perroberna.png" alt="" class="portfoli--img"></a>
+            <a href="https://sacreuetamigjorn.wixsite.com/sacreueta" class="portfoli--item"><img
+                    src="./img/cavallcamp.png" alt="" class="portfoli--img"></a>
+            <a href="https://www.faib.es/" class="portfoli--item"><img src="./img/atledalt.png" alt=""
+                    class="portfoli--img"></a>
+            <a href="https://festesmenorca.com/" class="portfoli--item"><img src="./img/cavallpista.png" alt=""
+                    class="portfoli--img"></a>
+        </div>
+
+    </section>
+
+    <footer>
+        <a href="mailto:dmasferrer20345@iesjoanramis.org" class="footer--link">dmasferrer20345@iesjoanramis.org</a>
+        <ul class="social-list">
+            <li class="social-list--item"><a href="https://github.com/" class="socila-list--link">Github</a></li>
+            <li class="social-list--item"><a href="instagram.com/dunamasferrer" class="socila-list--link">Instagram</a>
+            </li>
+            <li class="social-list--item"><a href="https://www.tiktok.com/dunamasfe"
+                    class="socila-list--link">TikTok</a></li>
+            <li class="social-list--item"><a href="https://es.pinterest.com/" class="socila-list--link">Pinterest</a>
+            </li>
+        </ul>
+
+    </footer>
+
+
+
 </body>
+
 </html>
